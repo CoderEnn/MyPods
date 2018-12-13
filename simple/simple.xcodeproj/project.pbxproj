@@ -13,6 +13,7 @@
 		91C9B67221C2AF2C008D74FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91C9B67121C2AF2C008D74FD /* Assets.xcassets */; };
 		91C9B67521C2AF2C008D74FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91C9B67321C2AF2C008D74FD /* LaunchScreen.storyboard */; };
 		91C9B67821C2AF2C008D74FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C9B67721C2AF2C008D74FD /* main.m */; };
+		91C9B68021C2B38A008D74FD /* MathTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C9B67F21C2B38A008D74FD /* MathTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		91C9B67421C2AF2C008D74FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		91C9B67621C2AF2C008D74FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		91C9B67721C2AF2C008D74FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		91C9B67E21C2B38A008D74FD /* MathTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MathTool.h; sourceTree = "<group>"; };
+		91C9B67F21C2B38A008D74FD /* MathTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MathTool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				91C9B66921C2AF2B008D74FD /* AppDelegate.m */,
 				91C9B66B21C2AF2B008D74FD /* ViewController.h */,
 				91C9B66C21C2AF2B008D74FD /* ViewController.m */,
+				91C9B67E21C2B38A008D74FD /* MathTool.h */,
+				91C9B67F21C2B38A008D74FD /* MathTool.m */,
 				91C9B66E21C2AF2B008D74FD /* Main.storyboard */,
 				91C9B67121C2AF2C008D74FD /* Assets.xcassets */,
 				91C9B67321C2AF2C008D74FD /* LaunchScreen.storyboard */,
@@ -142,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				91C9B66D21C2AF2B008D74FD /* ViewController.m in Sources */,
+				91C9B68021C2B38A008D74FD /* MathTool.m in Sources */,
 				91C9B67821C2AF2C008D74FD /* main.m in Sources */,
 				91C9B66A21C2AF2B008D74FD /* AppDelegate.m in Sources */,
 			);
