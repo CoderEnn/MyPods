@@ -9,11 +9,11 @@ Pod::Spec.new do |s|
                    DESC
   s.homepage     = "http://baidu.com.com"
 
-   s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author             = { "dongmei zeng" => "1067149863@qq.com·" }
   s.source       = { :git => "https://github.com/CoderEnn/MyPods.git", :tag => "#{s.version}" }
   #s.resources  = "simple/simpe.bundle", "simple/Simp.xcassets"
-  s.source_files = "UI/MathTool.{h,m}", "UI/MathConfig.h"
+  s.source_files = "simple/UI/*.{h,m}", "simple/UI/MathConfig.h"
 # s.dependency "Masonry", '~> 1.1.0'
 
 end
