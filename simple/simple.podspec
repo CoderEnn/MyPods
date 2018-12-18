@@ -8,17 +8,15 @@ Pod::Spec.new do |s|
                         this is privateProject
                    DESC
 
-  s.homepage     = "http://EXAMPLE/simple"
+
+  s.homepage     = "http://baidu.com.com"
 
    s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
   s.author             = { "dongmei zeng" => "1067149863@qq.com·" }
-
-    s.platform     = :ios, "8.0"
   s.source       = { :git => "https://github.com/CoderEnn/MyPods.git", :tag => "#{s.version}" }
 
   s.resources  = "simple/simpe.bundle", 'simple/Simp.xcassets'
-s.source_files = "simple/MathTool.*", 'simple/MathConfig.h'
-
-  s.dependency "Masonry", '~> 1.1.0'
+  s.source_files = 'simple/MathTool.*', 'simple/MathConfig.h'
+# s.dependency "Masonry", '~> 1.1.0'
 
 end
