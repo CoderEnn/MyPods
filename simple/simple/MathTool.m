@@ -7,6 +7,7 @@
 //
 
 #import "MathTool.h"
+#import "MathConfig.h"
 
 @implementation MathTool
 

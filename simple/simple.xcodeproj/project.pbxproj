@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9130C06621C4F05700DA68B8 /* simple.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 9130C06521C4F05700DA68B8 /* simple.podspec */; };
+		9130C06A21C4FC3E00DA68B8 /* Simp.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9130C06921C4FC3E00DA68B8 /* Simp.xcassets */; };
 		91C9B66A21C2AF2B008D74FD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C9B66921C2AF2B008D74FD /* AppDelegate.m */; };
 		91C9B66D21C2AF2B008D74FD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C9B66C21C2AF2B008D74FD /* ViewController.m */; };
 		91C9B67021C2AF2B008D74FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91C9B66E21C2AF2B008D74FD /* Main.storyboard */; };
@@ -14,9 +16,15 @@
 		91C9B67521C2AF2C008D74FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91C9B67321C2AF2C008D74FD /* LaunchScreen.storyboard */; };
 		91C9B67821C2AF2C008D74FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C9B67721C2AF2C008D74FD /* main.m */; };
 		91C9B68021C2B38A008D74FD /* MathTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C9B67F21C2B38A008D74FD /* MathTool.m */; };
+		91C9B68721C2BFFE008D74FD /* simpe.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 91C9B68621C2BFFD008D74FD /* simpe.bundle */; };
+		E3D6A344DB5F98113813ABCD /* libPods-simple.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A140524E45CE33E3B86D839 /* libPods-simple.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5A140524E45CE33E3B86D839 /* libPods-simple.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-simple.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9130C06521C4F05700DA68B8 /* simple.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = simple.podspec; sourceTree = "<group>"; };
+		9130C06921C4FC3E00DA68B8 /* Simp.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Simp.xcassets; sourceTree = "<group>"; };
+		9130C06B21C938B900DA68B8 /* MathConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MathConfig.h; sourceTree = "<group>"; };
 		91C9B66521C2AF2B008D74FD /* simple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = simple.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91C9B66821C2AF2B008D74FD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		91C9B66921C2AF2B008D74FD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -29,6 +37,9 @@
 		91C9B67721C2AF2C008D74FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		91C9B67E21C2B38A008D74FD /* MathTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MathTool.h; sourceTree = "<group>"; };
 		91C9B67F21C2B38A008D74FD /* MathTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MathTool.m; sourceTree = "<group>"; };
+		91C9B68621C2BFFD008D74FD /* simpe.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = simpe.bundle; sourceTree = "<group>"; };
+		A66FDD33AEE295531370B33E /* Pods-simple.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-simple.release.xcconfig"; path = "Pods/Target Support Files/Pods-simple/Pods-simple.release.xcconfig"; sourceTree = "<group>"; };
+		BE95B6CA546090AD12CF0739 /* Pods-simple.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-simple.debug.xcconfig"; path = "Pods/Target Support Files/Pods-simple/Pods-simple.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,17 +47,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3D6A344DB5F98113813ABCD /* libPods-simple.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9130C06421C4F04A00DA68B8 /* Podspec Metadata */ = {
+			isa = PBXGroup;
+			children = (
+				9130C06521C4F05700DA68B8 /* simple.podspec */,
+			);
+			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
 		91C9B65C21C2AF2B008D74FD = {
 			isa = PBXGroup;
 			children = (
+				9130C06421C4F04A00DA68B8 /* Podspec Metadata */,
 				91C9B66721C2AF2B008D74FD /* simple */,
 				91C9B66621C2AF2B008D74FD /* Products */,
+				D0065E4472A6AF8C6E5BB89D /* Pods */,
+				EE4CCA0A5452D4C040E9E968 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -66,14 +89,34 @@
 				91C9B66B21C2AF2B008D74FD /* ViewController.h */,
 				91C9B66C21C2AF2B008D74FD /* ViewController.m */,
 				91C9B67E21C2B38A008D74FD /* MathTool.h */,
+				9130C06B21C938B900DA68B8 /* MathConfig.h */,
 				91C9B67F21C2B38A008D74FD /* MathTool.m */,
+				9130C06921C4FC3E00DA68B8 /* Simp.xcassets */,
 				91C9B66E21C2AF2B008D74FD /* Main.storyboard */,
+				91C9B68621C2BFFD008D74FD /* simpe.bundle */,
 				91C9B67121C2AF2C008D74FD /* Assets.xcassets */,
 				91C9B67321C2AF2C008D74FD /* LaunchScreen.storyboard */,
 				91C9B67621C2AF2C008D74FD /* Info.plist */,
 				91C9B67721C2AF2C008D74FD /* main.m */,
 			);
 			path = simple;
+			sourceTree = "<group>";
+		};
+		D0065E4472A6AF8C6E5BB89D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BE95B6CA546090AD12CF0739 /* Pods-simple.debug.xcconfig */,
+				A66FDD33AEE295531370B33E /* Pods-simple.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EE4CCA0A5452D4C040E9E968 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5A140524E45CE33E3B86D839 /* libPods-simple.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +126,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 91C9B67B21C2AF2C008D74FD /* Build configuration list for PBXNativeTarget "simple" */;
 			buildPhases = (
+				A89B2A392C674947D32B5DC2 /* [CP] Check Pods Manifest.lock */,
 				91C9B66121C2AF2B008D74FD /* Sources */,
 				91C9B66221C2AF2B008D74FD /* Frameworks */,
 				91C9B66321C2AF2B008D74FD /* Resources */,
@@ -135,11 +179,39 @@
 			files = (
 				91C9B67521C2AF2C008D74FD /* LaunchScreen.storyboard in Resources */,
 				91C9B67221C2AF2C008D74FD /* Assets.xcassets in Resources */,
+				9130C06A21C4FC3E00DA68B8 /* Simp.xcassets in Resources */,
+				9130C06621C4F05700DA68B8 /* simple.podspec in Resources */,
+				91C9B68721C2BFFE008D74FD /* simpe.bundle in Resources */,
 				91C9B67021C2AF2B008D74FD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A89B2A392C674947D32B5DC2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-simple-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		91C9B66121C2AF2B008D74FD /* Sources */ = {
@@ -289,6 +361,7 @@
 		};
 		91C9B67C21C2AF2C008D74FD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE95B6CA546090AD12CF0739 /* Pods-simple.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -305,6 +378,7 @@
 		};
 		91C9B67D21C2AF2C008D74FD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A66FDD33AEE295531370B33E /* Pods-simple.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
