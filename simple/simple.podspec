@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
    s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
   s.author             = { "dongmei zeng" => "1067149863@qq.com·" }
 
-
+    s.platform     = :ios, "8.0"
   s.source       = { :git => "https://github.com/CoderEnn/MyPods.git", :tag => "#{s.version}" }
 
   s.resources  = "simple/simpe.bundle", 'simple/Simp.xcassets'
