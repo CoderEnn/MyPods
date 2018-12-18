@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9130C06621C4F05700DA68B8 /* simple.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 9130C06521C4F05700DA68B8 /* simple.podspec */; };
 		9130C06A21C4FC3E00DA68B8 /* Simp.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9130C06921C4FC3E00DA68B8 /* Simp.xcassets */; };
+		9130C06E21C94AA700DA68B8 /* simple.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 9130C06D21C94AA700DA68B8 /* simple.podspec */; };
 		91C9B66A21C2AF2B008D74FD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C9B66921C2AF2B008D74FD /* AppDelegate.m */; };
 		91C9B66D21C2AF2B008D74FD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C9B66C21C2AF2B008D74FD /* ViewController.m */; };
 		91C9B67021C2AF2B008D74FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91C9B66E21C2AF2B008D74FD /* Main.storyboard */; };
@@ -22,9 +22,9 @@
 
 /* Begin PBXFileReference section */
 		5A140524E45CE33E3B86D839 /* libPods-simple.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-simple.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9130C06521C4F05700DA68B8 /* simple.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = simple.podspec; sourceTree = "<group>"; };
 		9130C06921C4FC3E00DA68B8 /* Simp.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Simp.xcassets; sourceTree = "<group>"; };
 		9130C06B21C938B900DA68B8 /* MathConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MathConfig.h; sourceTree = "<group>"; };
+		9130C06D21C94AA700DA68B8 /* simple.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = simple.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		91C9B66521C2AF2B008D74FD /* simple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = simple.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91C9B66821C2AF2B008D74FD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		91C9B66921C2AF2B008D74FD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,18 +54,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9130C06421C4F04A00DA68B8 /* Podspec Metadata */ = {
+		9130C06C21C94A9A00DA68B8 /* h */ = {
 			isa = PBXGroup;
 			children = (
-				9130C06521C4F05700DA68B8 /* simple.podspec */,
+				9130C06D21C94AA700DA68B8 /* simple.podspec */,
 			);
-			name = "Podspec Metadata";
+			name = h;
+			sourceTree = "<group>";
+		};
+		9130C09121C950D800DA68B8 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				91C9B67E21C2B38A008D74FD /* MathTool.h */,
+				9130C06B21C938B900DA68B8 /* MathConfig.h */,
+				91C9B67F21C2B38A008D74FD /* MathTool.m */,
+			);
+			path = UI;
 			sourceTree = "<group>";
 		};
 		91C9B65C21C2AF2B008D74FD = {
 			isa = PBXGroup;
 			children = (
-				9130C06421C4F04A00DA68B8 /* Podspec Metadata */,
+				9130C06C21C94A9A00DA68B8 /* h */,
 				91C9B66721C2AF2B008D74FD /* simple */,
 				91C9B66621C2AF2B008D74FD /* Products */,
 				D0065E4472A6AF8C6E5BB89D /* Pods */,
@@ -88,9 +98,7 @@
 				91C9B66921C2AF2B008D74FD /* AppDelegate.m */,
 				91C9B66B21C2AF2B008D74FD /* ViewController.h */,
 				91C9B66C21C2AF2B008D74FD /* ViewController.m */,
-				91C9B67E21C2B38A008D74FD /* MathTool.h */,
-				9130C06B21C938B900DA68B8 /* MathConfig.h */,
-				91C9B67F21C2B38A008D74FD /* MathTool.m */,
+				9130C09121C950D800DA68B8 /* UI */,
 				9130C06921C4FC3E00DA68B8 /* Simp.xcassets */,
 				91C9B66E21C2AF2B008D74FD /* Main.storyboard */,
 				91C9B68621C2BFFD008D74FD /* simpe.bundle */,
@@ -179,8 +187,8 @@
 			files = (
 				91C9B67521C2AF2C008D74FD /* LaunchScreen.storyboard in Resources */,
 				91C9B67221C2AF2C008D74FD /* Assets.xcassets in Resources */,
+				9130C06E21C94AA700DA68B8 /* simple.podspec in Resources */,
 				9130C06A21C4FC3E00DA68B8 /* Simp.xcassets in Resources */,
-				9130C06621C4F05700DA68B8 /* simple.podspec in Resources */,
 				91C9B68721C2BFFE008D74FD /* simpe.bundle in Resources */,
 				91C9B67021C2AF2B008D74FD /* Main.storyboard in Resources */,
 			);
